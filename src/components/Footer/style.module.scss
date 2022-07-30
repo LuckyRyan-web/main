@@ -1,0 +1,15 @@
+/**
+ * @author liuyuan
+ * @date 2022-07-30 21:48
+ * @since 0.0.0
+ */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-height: 60px;
+
+    // padding: 0 100px;
+    background-color: rgba(0, 0, 0, 40%);
+    cursor: pointer;
+}
