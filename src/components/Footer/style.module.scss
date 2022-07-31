@@ -9,8 +9,12 @@
     bottom: 0;
     width: 100%;
     min-height: 60px;
-
-    // padding: 0 100px;
+    line-height: 60px;
     background-color: rgba(0, 0, 0, 40%);
     cursor: pointer;
+}
+
+.line {
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(60, 122, 198, 0%), rgba(60, 122, 198, 75%), rgba(60, 122, 198, 0%));
 }

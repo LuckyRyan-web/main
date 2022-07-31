@@ -18,6 +18,7 @@ const Footer: React.FC<FooterProps> = (props) => {
                 window.open('https://beian.miit.gov.cn')
             }}
         >
+            <div className={style.line}></div>
             粤ICP备2022091428号-1
         </div>
     )

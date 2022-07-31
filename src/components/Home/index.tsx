@@ -32,8 +32,8 @@ const Home: React.FC<HomeProps> = (props) => {
         <div>
             <img src='https://ghchart.rshah.org/LuckyRyan-web' alt='ryan-liu github chart'></img>
             <h2>前端切图仔 ryan-liu 的主页</h2>
-            <hr className={style.hr}></hr>
-            <div>
+            <div className={style.line}></div>
+            <div className={style.linkList}>
                 {list.map((v, k) => (
                     <span key={v.link}>
                         <span

@@ -4,18 +4,19 @@
  * @since 0.0.0
  */
 
-.hr {
+.line {
     height: 1px;
-    max-width: 400px;
-    margin-top: -1px;
-    border: none;
-    background-image: linear-gradient(0deg, transparent, #d5d5d5, transparent);
+    background-image: linear-gradient(to right, transparent, #d5d5d5, transparent);
+}
+
+.linkList {
+    padding-top: 5px;
 }
 
 .link {
+    color: #fff;
     cursor: pointer;
     transition: all 0.1s;
-    color: #fff;
 
     &:hover {
         color: #3678e5;
