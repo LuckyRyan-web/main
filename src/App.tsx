@@ -7,8 +7,6 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import ParticlesBg from 'particles-bg'
 function App() {
-    const [count, setCount] = useState(0)
-
     return (
         <div className={classnames(style.App, style.center)}>
             <Home />
