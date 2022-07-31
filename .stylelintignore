@@ -6,3 +6,4 @@ static/**/*.css
 *.js
 *.jsx
 *.json
+*.md

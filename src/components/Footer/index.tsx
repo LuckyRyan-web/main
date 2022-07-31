@@ -15,7 +15,7 @@ const Footer: React.FC<FooterProps> = (props) => {
         <div
             className={style.footer}
             onClick={() => {
-                window.open('https://beian.miit.gov.cn')
+                window.open('https://beian.miit.gov.cn/')
             }}
         >
             <div className={style.line}></div>
