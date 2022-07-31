@@ -5,13 +5,15 @@ import classnames from 'classnames'
 import style from './App.module.scss'
 import Home from './components/Home'
 import Footer from './components/Footer'
-
+import ParticlesBg from 'particles-bg'
 function App() {
     const [count, setCount] = useState(0)
 
     return (
         <div className={classnames(style.App, style.center)}>
             <Home />
+            <ParticlesBg type='lines' bg={true} />
+
             <Footer />
             {/* <div>
                 <a href='https://vitejs.dev' target='_blank' rel='noreferrer'>
